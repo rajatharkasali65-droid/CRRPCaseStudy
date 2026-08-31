@@ -11,7 +11,8 @@ export default defineConfig(({ mode }) => {
   const emitSourcemaps = mode === 'development'
 
   return {
-    base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/',
+    // Required for GitHub Pages project site: https://<user>.github.io/CRRPCaseStudy/
+    base: process.env.FIGMA_PUBLIC_URL ? `${process.env.FIGMA_PUBLIC_URL}/` : '/CRRPCaseStudy/',
     build: {
       sourcemap: emitSourcemaps ? 'inline' : false,
       minify: !emitSourcemaps,
