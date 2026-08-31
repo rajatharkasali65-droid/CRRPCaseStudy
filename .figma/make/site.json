@@ -1,0 +1,11 @@
+{
+  "title": "CRRP Case Study",
+  "description": "Creates professional UI/UX design case studies with modern typography to showcase portfolios clearly and attractively for designers and clients.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
